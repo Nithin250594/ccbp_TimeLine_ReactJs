@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.course-container {
+  background-color: #ffffff;
+  box-shadow: 4px 16px 0px 0px #bfbfbf;
+  padding: 20px;
+}
+
+.course-title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duration-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-title {
+  color: #171f46;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.fill-clock-circle {
+  width: 15px;
+  height: 15px;
+  color: #171f46;
+  margin-right: 8px;
+}
+
+.duration {
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.description {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.tags-list-container {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.tags-list-item {
+  background-color: #dde5ed;
+  padding: 10px;
+  border-radius: 5px;
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
